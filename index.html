@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Exo:wght@400;500;600&family=Montserrat:ital,wght@0,100;0,200;1,100&family=Mulish:wght@200&display=swap" rel="stylesheet">
+  <title>MLPCARE</title>
+</head>
+<body>
+  <main>
+    <div class="hosp-slide">
+      <h3>Hastanelerimiz</h3>
+      <div class="image-box">
+        <div class="demo" onclick="currentSlide(1)">
+          <img src="./assets/liv-ulus.png" alt="ulus" >
+          <p>Liv Hospital Ulus</p>
+        </div>
+        <div class="demo"  onclick="currentSlide(2)">
+          <img src="./assets/liv-isu.png" alt="isu">
+          <p>İSÜ Liv Hospital Bahçeşehir</p>
+        </div>
+        <div class="demo" onclick="currentSlide(3)">
+          <img  src="./assets/liv-vadi.png" alt="vadistanbul" >
+          <p>Liv Hospital Vadistanbul</p>
+        </div>
+        <div class="demo" onclick="currentSlide(4)">
+          <img  src="./assets/liv-ankara.png" alt="ankara" >
+          <p>Liv Hospital Ankara</p>
+        </div>
+        <div class="demo" onclick="currentSlide(5)">
+          <img src="./assets/liv-ulus.png" alt="ulus" >
+          <p>Liv Hospital Ulus</p>
+        </div>
+        <div class="demo"  onclick="currentSlide(6)">
+          <img src="./assets/liv-isu.png" alt="isu">
+          <p>İSÜ Liv Hospital Bahçeşehir</p>
+        </div>
+        <div class="demo" onclick="currentSlide(7)">
+          <img  src="./assets/liv-vadi.png" alt="vadistanbul" >
+          <p>Liv Hospital Vadistanbul</p>
+        </div>
+      </div>
+    </div>
+    <div class="slide-container">
+      <div class="side-hosp">
+        <img src="./assets/ulus-big.jpeg" alt="ulus">
+        <div>
+          <h1>Liv Hospital Ulus</h1>
+          <p>Hasta odaklı yaklaşımı, seçkin hekim kadrosu, sağlık personeli, tıbbi altyapısı ve teknolojisiyle Liv Hospital Ulus 30 bin metrekare kapalı alanda, 154 yatak, 8 ameliyathane ve 50 klinikten oluşuyor.</p>
+          <a href="https://www.livhospital.com/liv-hastaneleri/liv-hospital-ulus" target="_blank">
+            Detaylı Bilgi
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+              <path d="M3.33334 10H16.6667M16.6667 10L11.6667 5M16.6667 10L11.6667 15" stroke="#057DAB" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="side-hosp">
+        <img src="./assets/isu-big.png" alt="isu">
+        <div>
+          <h1>İSÜ Liv Hospital Bahçeşehir</h1>
+          <p>62.500 metre kare kapalı alana sahip 21 katlı hastanede akıllı bina sistemiyle bina içindeki her türlü soruna anında müdahale edilebilmektedir...</p>
+          <a href="https://www.livhospital.com/liv-hastaneleri/istinye-universitesi-bahcesehir" target="_blank">
+            Detaylı Bilgi
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+              <path d="M3.33334 10H16.6667M16.6667 10L11.6667 5M16.6667 10L11.6667 15" stroke="#057DAB" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="side-hosp">
+        <img src="./assets/vadi-big.jpeg" alt="vadistanbul">
+        <div>
+          <h1>Liv Hospital Vadistanbul</h1>
+          <p>Hasta odaklı yaklaşımı ve tecrübeli hekim kadrosunu multidisipliner çalışma biçimiyle bir araya getirerek sağlık sektörüne yeni ve modern bir soluk getiren Liv Hospital 2013 yılında başlayan yolculuğuna şimdi altıncı hastanesi Liv Hospital Vadistanbul ile devam ediyor.</p>
+          <a href="https://www.livhospital.com/liv-hastaneleri/liv-hospital-vadistanbul" target="_blank">
+            Detaylı Bilgi
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+              <path d="M3.33334 10H16.6667M16.6667 10L11.6667 5M16.6667 10L11.6667 15" stroke="#057DAB" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="side-hosp">
+        <img src="./assets/ankara-big.jpeg" alt="ankara">
+        <div>
+          <h1>Liv Hospital Ankara</h1>
+          <p>Liv Hospital Ankara; Multidisipliner çalışmayı kendine amaç edinen Liv Hospital Ankara, bilimsel çalışmaların pratiğe dönüştürülerek el ele yürütüldüğü bir kültürü benimsiyor. Liv Hospital Ankara, dünya standartlarındaki tıbbi altyapısı ve teknolojisiyle 27 bin metrekare kapalı alanda hizmet veriyor.</p>
+          <a href="https://www.livhospital.com/liv-hastaneleri/liv-hospital-ankara" target="_blank">
+            Detaylı Bilgi
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+              <path d="M3.33334 10H16.6667M16.6667 10L11.6667 5M16.6667 10L11.6667 15" stroke="#057DAB" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="side-hosp">
+        <img src="./assets/ulus-big.jpeg" alt="ulus">
+        <div>
+          <h1>Liv Hospital Ulus</h1>
+          <p>Hasta odaklı yaklaşımı, seçkin hekim kadrosu, sağlık personeli, tıbbi altyapısı ve teknolojisiyle Liv Hospital Ulus 30 bin metrekare kapalı alanda, 154 yatak, 8 ameliyathane ve 50 klinikten oluşuyor.</p>
+          <a href="https://www.livhospital.com/liv-hastaneleri/liv-hospital-ulus" target="_blank">
+            Detaylı Bilgi
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+              <path d="M3.33334 10H16.6667M16.6667 10L11.6667 5M16.6667 10L11.6667 15" stroke="#057DAB" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="side-hosp">
+        <img src="./assets/isu-big.png" alt="isu">
+        <div>
+          <h1>İSÜ Liv Hospital Bahçeşehir</h1>
+          <p>62.500 metre kare kapalı alana sahip 21 katlı hastanede akıllı bina sistemiyle bina içindeki her türlü soruna anında müdahale edilebilmektedir...</p>
+          <a href="https://www.livhospital.com/liv-hastaneleri/istinye-universitesi-bahcesehir" target="_blank">
+            Detaylı Bilgi
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+              <path d="M3.33334 10H16.6667M16.6667 10L11.6667 5M16.6667 10L11.6667 15" stroke="#057DAB" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="side-hosp">
+        <img src="./assets/vadi-big.jpeg" alt="vadistanbul">
+        <div>
+          <h1>Liv Hospital Vadistanbul</h1>
+          <p>Hasta odaklı yaklaşımı ve tecrübeli hekim kadrosunu multidisipliner çalışma biçimiyle bir araya getirerek sağlık sektörüne yeni ve modern bir soluk getiren Liv Hospital 2013 yılında başlayan yolculuğuna şimdi altıncı hastanesi Liv Hospital Vadistanbul ile devam ediyor.</p>
+          <a href="https://www.livhospital.com/liv-hastaneleri/liv-hospital-vadistanbul" target="_blank">
+            Detaylı Bilgi
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+              <path d="M3.33334 10H16.6667M16.6667 10L11.6667 5M16.6667 10L11.6667 15" stroke="#057DAB" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <script>
+      let slideIndex = 1;
+      showSlides(slideIndex);
+      
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+      function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("side-hosp");
+        let dots = document.getElementsByClassName("demo");
+        let captionText = document.getElementById("caption");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+        captionText.innerHTML = dots[slideIndex-1].alt;
+      }
+      </script>
+  </body>
+</html>
